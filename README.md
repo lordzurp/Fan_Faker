@@ -20,7 +20,7 @@ Pour le simuler, il suffit d'envoyer un signal carré à la fréquence correspon
 
 la vitesse finale est ajsutée par le pont diviseur sur la carte
 
-##### exemple : on veut simuler un ventilateur tournant à 6000 rpm à 12V
+#### exemple : on veut simuler un ventilateur tournant à 6000 rpm à 12V
 - on mesure la tension d'alimentation du ventilo, via un pont diviseur 1/3 : on passe de 0-15V à 0-5V
 - un map la valeur sur une echelle de 0 à 10.000 (vitesse max théorique à 15V)
 - on passe en Hertz : 10.000 / 60 = 166.67 Hz
