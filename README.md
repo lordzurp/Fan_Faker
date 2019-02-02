@@ -11,7 +11,10 @@
 
 ## Principe de fonctionnement
 Un ventilateur PC a un tachymètre qui envoie 2 pulses par tour
+
 Pour le simuler, il suffit d'envoyer un signal carré à la fréquence correspondante
+
+la vitesse finale est ajsutée par le pont diviseur sur la carte
 
 ##### exemple : on veut simuler un ventilateur tournant à 6000 rpm à 12V
 - on mesure la tension d'alimentation du ventilo, via un pont diviseur 1/3 : on passe de 0-15V à 0-5V
