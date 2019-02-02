@@ -1,8 +1,8 @@
 # Fan Faker
 
-[![GitHub release](http://img.shields.io/badge/Version-1.0-brightgreen.svg?style=flat)][release]
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)][license] 
-[![Arduino](https://img.shields.io/badge/Arduino-Nano-red.svg?style=flat)][Arduino]
+[![GitHub release](http://img.shields.io/badge/Version-1.0-brightgreen.svg)][release]
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg)][license] 
+[![Arduino](https://img.shields.io/badge/Arduino-Nano-red.svg)][Arduino]
 
 
 [release]: https://github.com/lordzurp/Fan_Faker/releases
