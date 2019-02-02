@@ -10,7 +10,7 @@
 [arduino]: https://www.arduino.cc/en/Guide/ArduinoNano
 
 ## Finalité
-J'ai récuperé un onduleur rack que j'ai installé sous mon bureau. Le ventilateur d'origine est très bruyant (70mm 6000rpm), mais impossible de le changer pour un plus silencieux, l'onduleur surveille la vitesse et se met en défaut s'il voitune vitesse trop lente.
+J'ai récuperé un onduleur rack que j'ai installé sous mon bureau. Le ventilateur d'origine est très bruyant (70mm 6000rpm), mais impossible de le changer pour un plus silencieux, l'onduleur surveille la vitesse et se met en défaut s'il voit une vitesse trop lente.
 
 L'idée a été de simuler un ventilateur rapide sur la broche tachy, tout en isntallant un ventilateur silencieux en parrallèle.
 ## Principe de fonctionnement
