@@ -26,7 +26,7 @@ void setup() {
 void loop() {
     
     sensorValueRaw = analogRead(sensorPin);  // on lit la tension d'entrée, qui est divisée par ~3 (0-12V -> 0-5V)
-    fake_rpm = map(sensorValueRaw, 0, 1023, 0, 8000);  // on ajuste la mesure sur la vitesse voulue du ventilo (0-10.000 rpm)
+    fake_rpm = map(sensorValueRaw, 0, 1023, 0, 8000);  // on ajuste la mesure sur la vitesse voulue du ventilo (0-8.000 rpm)
     tone(outputPin, fake_rpm / 60 * 2);  // on envoie une pulse correspondant à la frequence du tachy : 8.000 rpm / 60s * 2 pulses par tour
 
     /* debug
